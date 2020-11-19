@@ -10,6 +10,6 @@ routes.post('/create-articles', create)
 
 routes.get('/articles', index);
 
-routes.delete('/update-articles', remove);
+routes.delete('/delete-articles', remove);
 
 export default routes;
